@@ -20,8 +20,7 @@ function App() {
 
 let Home= () =>{
   let profiles=data.profile;
-  console.log(profiles);
-
+  alert("Hello");
   return(
     <div className="row justify-content-center">
         {profiles.map((values,index)=>(
